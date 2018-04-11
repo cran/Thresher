@@ -1,0 +1,43 @@
+###
+### NAMESPACE
+###
+import(methods)
+import(stats)
+import(graphics)
+importFrom(MASS, mvrnorm)
+importFrom(ade4, dist.binary)
+importFrom(grDevices, colors, png, dev.off)
+import(colorspace)
+import(movMF)
+
+import(oompaBase)
+import(ClassDiscovery)
+import(PCDimension)
+
+# redefined S3 methods
+importMethodsFrom(oompaBase, "summary", "plot", "image")
+importMethodsFrom(ClassDiscovery, "screeplot")
+
+# match labels in two different cluster assignments
+export(labelMatcher, matchLabels,
+       countAgreement, labelAccuracy,
+       bestMetric)
+
+# misc
+export(unitize)
+
+# thresher
+#export(thresherPalette, samplePalette)
+exportClasses("Thresher", "SimThresher")
+export(Thresher, SimThresher)
+
+# reaper
+exportClasses("Reaper")
+export("Reaper")
+
+# new methods for new classes
+exportMethods("plot", "image", "screeplot")
+
+# novel generic functions
+exportMethods("makeFigures", "getColors", "getStyles",
+              "getSplit", "scatter", "heat")
