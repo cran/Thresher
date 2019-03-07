@@ -1,6 +1,6 @@
 Package: Thresher
-Version: 1.0.2
-Date: 2018-10-05
+Version: 1.1.0
+Date: 2019-03-04
 Title: Threshing and Reaping for Principal Components
 Author: Kevin R. Coombes
 Maintainer: Kevin R. Coombes <krc@silicovore.com>
@@ -17,6 +17,6 @@ License: Apache License (== 2.0)
 biocViews: Clustering
 URL: http://oompa.r-forge.r-project.org/
 NeedsCompilation: no
-Packaged: 2018-10-17 13:32:21 UTC; coom05
+Packaged: 2019-03-07 15:09:38 UTC; Kevin
 Repository: CRAN
-Date/Publication: 2018-10-17 15:30:08 UTC
+Date/Publication: 2019-03-07 15:42:39 UTC

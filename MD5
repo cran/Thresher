@@ -1,7 +1,7 @@
-98c5822b5d56edc534086c19bf08c830 *DESCRIPTION
-ea4c250822efc2bd1c8df0e44d57cfb0 *NAMESPACE
-09cb53ef4c89eedbd0d4b144e7023d5f *NEWS
-4873353eef682e932f389d9ccc889791 *R/01-labelMatcher.R
+bbde6ce147dbb0a1036e7477d7d623db *DESCRIPTION
+62dedfb053969b0ffb3c211fbdf16400 *NAMESPACE
+73fb3943288b923cb42ea2283001736b *NEWS
+a79c7cfccf85eb89fbb37ddbca085663 *R/01-labelMatcher.R
 3f3a3cdc7652a1d140f5a0ee9e6ca235 *R/02-thresher.R
 7d9e05fb7d9cfdd8884d47277b7b7f80 *R/03-SimThesher.R
 74a8be5c42d138536ac699a9719dbf21 *R/04-reaper.R
@@ -26,7 +26,7 @@ cfdc1e0dddda24d719222569d8e2baa5 *inst/Examples/makeSims.R
 b7c2d99f4652cc8d437c815ea13dd0d7 *inst/Examples/thresh.Rda
 66d3b4e031f3fe527a69d2ef3a483b3b *inst/doc/Thresher.R
 7b829513a2059e84ccff117d9e587e9a *inst/doc/Thresher.Rnw
-00e8c048b76b51c1d98be8586e3214c2 *inst/doc/Thresher.pdf
+35ff6571c96d2ed5705d31b3d5a62091 *inst/doc/Thresher.pdf
 bb4e5389bb21d0d19c2131f0d7181fc6 *man/00-generic-methods.Rd
 2ac7c1ef7583a71e35a6b4c9bf52951c *man/01-dataObjects.Rd
 98cbb041b56d3fd709198d2960343e8b *man/Reaper-class.Rd
@@ -34,11 +34,13 @@ bb4e5389bb21d0d19c2131f0d7181fc6 *man/00-generic-methods.Rd
 7aaf8f427dafb2fb0fcc34d751612dd5 *man/SimThresher-class.Rd
 3e84a4f77547697ed50db4cc78820644 *man/Thresher-class.Rd
 12b8a74bff43ed7c8bb1393f7b684c51 *man/fit-or-miss-class.Rd
-4a4f9b014cdec95cd2a6d29b35883c1f *man/matchLabels.Rd
+bcfeb2b3e174289dd8bce948be249a38 *man/matchLabels.Rd
 41659b1c257677ab9e231610bdc18d06 *man/unitize.Rd
 16525bb863f67eac7d3ff790db6b856f *tests/00-Auer-Gervini_final.txt
 26d37fef250f46b8bb5137242d190bf5 *tests/01-label.R
 d450f5441e35300cff4305f5a314ce7e *tests/01-label.Rout.save
+ef3f141179f7bbe735388ec4cc5abfeb *tests/01-remap.R
+f8a9ea84b7303442254bb9b91d701029 *tests/01-remap.Rout.save
 06c78f500f335b5b0c1e51b53497f183 *tests/02-thresh.R
 bc5478d796b6031ba7e2ca029573b96b *tests/02-thresh.Rout.save
 1e1555e4cfdf2679ebbfd91cea515890 *tests/02-thresher_final.txt
