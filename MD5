@@ -1,4 +1,4 @@
-bbde6ce147dbb0a1036e7477d7d623db *DESCRIPTION
+ea668b002f0317834c6580bac8f46e8e *DESCRIPTION
 62dedfb053969b0ffb3c211fbdf16400 *NAMESPACE
 73fb3943288b923cb42ea2283001736b *NEWS
 a79c7cfccf85eb89fbb37ddbca085663 *R/01-labelMatcher.R
@@ -7,7 +7,7 @@ a79c7cfccf85eb89fbb37ddbca085663 *R/01-labelMatcher.R
 74a8be5c42d138536ac699a9719dbf21 *R/04-reaper.R
 0e2db8dd116b101bde0b1bf6b9b733b7 *TODO
 4f52c24b12a2fbe8ada77fcd4bdd8d71 *build/vignette.rds
-4c6ff851c159538f70d2ff56c6e9c4c1 *data/savedSims.rda
+478a6694f46d409a715e504dbd60f34f *data/savedSims.rda
 17e67c8abfe8c3442148581ca9e2db97 *inst/Examples/BRCA/00Readme.txt
 473c45b35318a06ca4fc9ba3932215f4 *inst/Examples/BRCA/NbClust.txt
 599414142df2047fc75c8fd09aa3a744 *inst/Examples/BRCA/breast_data_gse_analysis.R
@@ -26,7 +26,7 @@ cfdc1e0dddda24d719222569d8e2baa5 *inst/Examples/makeSims.R
 b7c2d99f4652cc8d437c815ea13dd0d7 *inst/Examples/thresh.Rda
 66d3b4e031f3fe527a69d2ef3a483b3b *inst/doc/Thresher.R
 7b829513a2059e84ccff117d9e587e9a *inst/doc/Thresher.Rnw
-35ff6571c96d2ed5705d31b3d5a62091 *inst/doc/Thresher.pdf
+88ec0383289e659c2cb9b9b7a33bff59 *inst/doc/Thresher.pdf
 bb4e5389bb21d0d19c2131f0d7181fc6 *man/00-generic-methods.Rd
 2ac7c1ef7583a71e35a6b4c9bf52951c *man/01-dataObjects.Rd
 98cbb041b56d3fd709198d2960343e8b *man/Reaper-class.Rd
@@ -38,14 +38,14 @@ bcfeb2b3e174289dd8bce948be249a38 *man/matchLabels.Rd
 41659b1c257677ab9e231610bdc18d06 *man/unitize.Rd
 16525bb863f67eac7d3ff790db6b856f *tests/00-Auer-Gervini_final.txt
 26d37fef250f46b8bb5137242d190bf5 *tests/01-label.R
-d450f5441e35300cff4305f5a314ce7e *tests/01-label.Rout.save
-ef3f141179f7bbe735388ec4cc5abfeb *tests/01-remap.R
-f8a9ea84b7303442254bb9b91d701029 *tests/01-remap.Rout.save
-06c78f500f335b5b0c1e51b53497f183 *tests/02-thresh.R
-bc5478d796b6031ba7e2ca029573b96b *tests/02-thresh.Rout.save
+5747b11e34834c0f4a422b61f6dea186 *tests/01-label.Rout.save
+4b31f0333c4a0bbea44fbdeab2e6ad42 *tests/01-remap.R
+7f9695d3339379940e3374b8339abb0c *tests/01-remap.Rout.save
+e936ac832f9323a1efdef2fcdc51dcbc *tests/02-thresh.R
+e788b58348806614a767b3ef5990723c *tests/02-thresh.Rout.save
 1e1555e4cfdf2679ebbfd91cea515890 *tests/02-thresher_final.txt
-15a382f9a7dc5e98c08bc9b86f94db45 *tests/04-reap.R
-c4675b43e2392d4526a1241cf307abf5 *tests/04-reap.Rout.save
+7a1ab01d9fe7c2e7c1794b6756e81867 *tests/04-reap.R
+7e0326a6b43a642d4321a5ff0fcee7f0 *tests/04-reap.Rout.save
 45017a1b4d910fa8584fc98697c44f73 *vignettes/NBold.txt
 d32c122c28536289082a64af3821123f *vignettes/NbClust.txt
 7b829513a2059e84ccff117d9e587e9a *vignettes/Thresher.Rnw
