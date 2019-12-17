@@ -18,7 +18,7 @@ setClassUnion("number or miss", c("numeric", "logical"))
     }
     fitted <- try(movMF(space, nc, start="S"), silent=TRUE)
     if (inherits(fitted, "try-error")) {
-      fitted <- try(movMF(space, nc, runs=10), silent=TRUE)
+      fitted <- try(movMF(space, nc, kappa=0.9, runs=10), silent=TRUE)
       if (inherits(fitted, "try-error")) {
         next
       }
@@ -63,7 +63,7 @@ setClass("SignalSet",
   # order signals by strength along PCs
   if (ncol(foo) > 1) {
     temp <- sqrt(apply(foo^2, 2, cumsum))
-    if (class(temp) == "numeric") temp <- matrix(temp, nrow=1)
+    if (inherits(temp, "numeric")) temp <- matrix(temp, nrow=1)
     cumulative <- apply(temp, 2, sum)
     oc <- rev(order(cumulative)) # biggest is first
     featureNames <- featureNames[oc]
